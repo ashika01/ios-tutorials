@@ -10,7 +10,6 @@ import UIKit
 class ProgressBarView: UIView {
     
     var bgPath: UIBezierPath!
-    var progressPath: UIBezierPath!
     var shapeLayer: CAShapeLayer!
     var progressLayer: CAShapeLayer!
     
@@ -24,14 +23,12 @@ class ProgressBarView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         bgPath = UIBezierPath()
-        progressPath = UIBezierPath()
         self.simpleShape()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         bgPath = UIBezierPath()
-        progressPath = UIBezierPath()
         self.simpleShape()
     }
     
@@ -39,7 +36,6 @@ class ProgressBarView: UIView {
     {
         createCirclePath()
         shapeLayer = CAShapeLayer()
-        print(shapeLayer.bounds)
         shapeLayer.path = bgPath.cgPath
         shapeLayer.lineWidth = 15
         shapeLayer.fillColor = nil
