@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAAC5B420391F47005BA152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC5B320391F47005BA152 /* AppDelegate.swift */; };
+		FAAAC5B620391F47005BA152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC5B520391F47005BA152 /* ViewController.swift */; };
+		FAAAC5B920391F48005BA152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAC5B720391F48005BA152 /* Main.storyboard */; };
+		FAAAC5BB20391F48005BA152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAAC5BA20391F48005BA152 /* Assets.xcassets */; };
+		FAAAC5BE20391F48005BA152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAC5BC20391F48005BA152 /* LaunchScreen.storyboard */; };
+		FAAAC5C62039313E005BA152 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC5C52039313E005BA152 /* PreviewViewController.swift */; };
+		FAAAC5C8203944DD005BA152 /* CameraSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC5C7203944DD005BA152 /* CameraSetup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAAAC5B020391F47005BA152 /* Snapchat Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapchat Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAAC5B320391F47005BA152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAAAC5B520391F47005BA152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAAAC5B820391F48005BA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAAAC5BA20391F48005BA152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAAAC5BD20391F48005BA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAAAC5BF20391F48005BA152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAC5C52039313E005BA152 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		FAAAC5C7203944DD005BA152 /* CameraSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSetup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAAC5AD20391F47005BA152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAAC5A720391F47005BA152 = {
+			isa = PBXGroup;
+			children = (
+				FAAAC5B220391F47005BA152 /* Snapchat Camera */,
+				FAAAC5B120391F47005BA152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAAC5B120391F47005BA152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAC5B020391F47005BA152 /* Snapchat Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAAC5B220391F47005BA152 /* Snapchat Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAC5B320391F47005BA152 /* AppDelegate.swift */,
+				FAAAC5B520391F47005BA152 /* ViewController.swift */,
+				FAAAC5C7203944DD005BA152 /* CameraSetup.swift */,
+				FAAAC5B720391F48005BA152 /* Main.storyboard */,
+				FAAAC5C52039313E005BA152 /* PreviewViewController.swift */,
+				FAAAC5BA20391F48005BA152 /* Assets.xcassets */,
+				FAAAC5BC20391F48005BA152 /* LaunchScreen.storyboard */,
+				FAAAC5BF20391F48005BA152 /* Info.plist */,
+			);
+			path = "Snapchat Camera";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAAC5AF20391F47005BA152 /* Snapchat Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAAC5C220391F48005BA152 /* Build configuration list for PBXNativeTarget "Snapchat Camera" */;
+			buildPhases = (
+				FAAAC5AC20391F47005BA152 /* Sources */,
+				FAAAC5AD20391F47005BA152 /* Frameworks */,
+				FAAAC5AE20391F47005BA152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snapchat Camera";
+			productName = "Snapchat Camera";
+			productReference = FAAAC5B020391F47005BA152 /* Snapchat Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAAC5A820391F47005BA152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ashika shanthi";
+				TargetAttributes = {
+					FAAAC5AF20391F47005BA152 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAAAC5AB20391F47005BA152 /* Build configuration list for PBXProject "Snapchat Camera" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAAAC5A720391F47005BA152;
+			productRefGroup = FAAAC5B120391F47005BA152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAAC5AF20391F47005BA152 /* Snapchat Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAAC5AE20391F47005BA152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAC5BE20391F48005BA152 /* LaunchScreen.storyboard in Resources */,
+				FAAAC5BB20391F48005BA152 /* Assets.xcassets in Resources */,
+				FAAAC5B920391F48005BA152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAAC5AC20391F47005BA152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAC5B620391F47005BA152 /* ViewController.swift in Sources */,
+				FAAAC5B420391F47005BA152 /* AppDelegate.swift in Sources */,
+				FAAAC5C8203944DD005BA152 /* CameraSetup.swift in Sources */,
+				FAAAC5C62039313E005BA152 /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAAAC5B720391F48005BA152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAAC5B820391F48005BA152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAAAC5BC20391F48005BA152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAAC5BD20391F48005BA152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAAAC5C020391F48005BA152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAAAC5C120391F48005BA152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAAAC5C320391F48005BA152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Snapchat Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABventures.Snapchat-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAAAC5C420391F48005BA152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Snapchat Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABventures.Snapchat-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAAC5AB20391F47005BA152 /* Build configuration list for PBXProject "Snapchat Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAC5C020391F48005BA152 /* Debug */,
+				FAAAC5C120391F48005BA152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAAC5C220391F48005BA152 /* Build configuration list for PBXNativeTarget "Snapchat Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAC5C320391F48005BA152 /* Debug */,
+				FAAAC5C420391F48005BA152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAAC5A820391F47005BA152 /* Project object */;
+}
