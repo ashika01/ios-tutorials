@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Snapchat Camera
 //
 //  Created by ashika shanthi on 2/17/18.
@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Firebase
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     var cameraSetup: CameraSetup!
     
     @IBOutlet weak var doneButton: UIButton!
@@ -58,6 +59,18 @@ class ViewController: UIViewController {
             cameraSetup.flashMode = .off}
     }
     
+    @IBAction func logOutAction(_ sender: Any) {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let initial = storyboard.instantiateInitialViewController()
+        UIApplication.shared.keyWindow?.rootViewController = initial
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? PreviewViewController{
             destination.pImg = self.previewImage

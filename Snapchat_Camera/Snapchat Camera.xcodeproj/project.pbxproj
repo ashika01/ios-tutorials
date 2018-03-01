@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		677639D5C16587CDC442606F /* Pods_Snapchat_Camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5A6CEC7D64B48B77E4858D /* Pods_Snapchat_Camera.framework */; };
+		FA2DDDB820462CEA00A6FE08 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DDDB720462CEA00A6FE08 /* StartViewController.swift */; };
+		FA2DDDBA20462CFD00A6FE08 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DDDB920462CFD00A6FE08 /* LoginViewController.swift */; };
+		FA2DDDBC20462D0C00A6FE08 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DDDBB20462D0C00A6FE08 /* SignUpViewController.swift */; };
+		FA2DDDBE204650AC00A6FE08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2DDDBD204650AC00A6FE08 /* GoogleService-Info.plist */; };
 		FAAAC5B420391F47005BA152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC5B320391F47005BA152 /* AppDelegate.swift */; };
-		FAAAC5B620391F47005BA152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC5B520391F47005BA152 /* ViewController.swift */; };
+		FAAAC5B620391F47005BA152 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC5B520391F47005BA152 /* HomeViewController.swift */; };
 		FAAAC5B920391F48005BA152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAC5B720391F48005BA152 /* Main.storyboard */; };
 		FAAAC5BB20391F48005BA152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAAC5BA20391F48005BA152 /* Assets.xcassets */; };
 		FAAAC5BE20391F48005BA152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAC5BC20391F48005BA152 /* LaunchScreen.storyboard */; };
@@ -17,15 +22,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76761B84E30812A56C9DA89A /* Pods-Snapchat Camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat Camera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat Camera/Pods-Snapchat Camera.debug.xcconfig"; sourceTree = "<group>"; };
+		7B5A6CEC7D64B48B77E4858D /* Pods_Snapchat_Camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat_Camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2DDDB720462CEA00A6FE08 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		FA2DDDB920462CFD00A6FE08 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA2DDDBB20462D0C00A6FE08 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FA2DDDBD204650AC00A6FE08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FAAAC5B020391F47005BA152 /* Snapchat Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapchat Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAC5B320391F47005BA152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAAAC5B520391F47005BA152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAAAC5B520391F47005BA152 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FAAAC5B820391F48005BA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAAAC5BA20391F48005BA152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAAAC5BD20391F48005BA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAAAC5BF20391F48005BA152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAAC5C52039313E005BA152 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		FAAAC5C7203944DD005BA152 /* CameraSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSetup.swift; sourceTree = "<group>"; };
+		FE91046C195CAF147CDA433F /* Pods-Snapchat Camera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat Camera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat Camera/Pods-Snapchat Camera.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677639D5C16587CDC442606F /* Pods_Snapchat_Camera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		007DB1461F5CD9C31FD8ED7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B5A6CEC7D64B48B77E4858D /* Pods_Snapchat_Camera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A4BE280EEB5519DC67E4741 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76761B84E30812A56C9DA89A /* Pods-Snapchat Camera.debug.xcconfig */,
+				FE91046C195CAF147CDA433F /* Pods-Snapchat Camera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FAAAC5A720391F47005BA152 = {
 			isa = PBXGroup;
 			children = (
 				FAAAC5B220391F47005BA152 /* Snapchat Camera */,
 				FAAAC5B120391F47005BA152 /* Products */,
+				4A4BE280EEB5519DC67E4741 /* Pods */,
+				007DB1461F5CD9C31FD8ED7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +91,16 @@
 			isa = PBXGroup;
 			children = (
 				FAAAC5B320391F47005BA152 /* AppDelegate.swift */,
-				FAAAC5B520391F47005BA152 /* ViewController.swift */,
+				FAAAC5B520391F47005BA152 /* HomeViewController.swift */,
 				FAAAC5C7203944DD005BA152 /* CameraSetup.swift */,
 				FAAAC5B720391F48005BA152 /* Main.storyboard */,
+				FA2DDDB720462CEA00A6FE08 /* StartViewController.swift */,
+				FA2DDDB920462CFD00A6FE08 /* LoginViewController.swift */,
+				FA2DDDBB20462D0C00A6FE08 /* SignUpViewController.swift */,
 				FAAAC5C52039313E005BA152 /* PreviewViewController.swift */,
 				FAAAC5BA20391F48005BA152 /* Assets.xcassets */,
 				FAAAC5BC20391F48005BA152 /* LaunchScreen.storyboard */,
+				FA2DDDBD204650AC00A6FE08 /* GoogleService-Info.plist */,
 				FAAAC5BF20391F48005BA152 /* Info.plist */,
 			);
 			path = "Snapchat Camera";
@@ -77,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAAAC5C220391F48005BA152 /* Build configuration list for PBXNativeTarget "Snapchat Camera" */;
 			buildPhases = (
+				307143C257F3C88269665399 /* [CP] Check Pods Manifest.lock */,
 				FAAAC5AC20391F47005BA152 /* Sources */,
 				FAAAC5AD20391F47005BA152 /* Frameworks */,
 				FAAAC5AE20391F47005BA152 /* Resources */,
+				26108065DAA4E43B50854CBC /* [CP] Embed Pods Frameworks */,
+				AB0F1C071280DB6AB2330F4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAAC5BE20391F48005BA152 /* LaunchScreen.storyboard in Resources */,
+				FA2DDDBE204650AC00A6FE08 /* GoogleService-Info.plist in Resources */,
 				FAAAC5BB20391F48005BA152 /* Assets.xcassets in Resources */,
 				FAAAC5B920391F48005BA152 /* Main.storyboard in Resources */,
 			);
@@ -137,12 +177,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26108065DAA4E43B50854CBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Snapchat Camera/Pods-Snapchat Camera-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snapchat Camera/Pods-Snapchat Camera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		307143C257F3C88269665399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snapchat Camera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0F1C071280DB6AB2330F4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snapchat Camera/Pods-Snapchat Camera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAAAC5AC20391F47005BA152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAAC5B620391F47005BA152 /* ViewController.swift in Sources */,
+				FA2DDDBA20462CFD00A6FE08 /* LoginViewController.swift in Sources */,
+				FA2DDDBC20462D0C00A6FE08 /* SignUpViewController.swift in Sources */,
+				FA2DDDB820462CEA00A6FE08 /* StartViewController.swift in Sources */,
+				FAAAC5B620391F47005BA152 /* HomeViewController.swift in Sources */,
 				FAAAC5B420391F47005BA152 /* AppDelegate.swift in Sources */,
 				FAAAC5C8203944DD005BA152 /* CameraSetup.swift in Sources */,
 				FAAAC5C62039313E005BA152 /* PreviewViewController.swift in Sources */,
@@ -280,11 +381,12 @@
 		};
 		FAAAC5C320391F48005BA152 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76761B84E30812A56C9DA89A /* Pods-Snapchat Camera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3UUJ553HD5;
 				INFOPLIST_FILE = "Snapchat Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ABventures.Snapchat-Camera";
@@ -297,11 +399,12 @@
 		};
 		FAAAC5C420391F48005BA152 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE91046C195CAF147CDA433F /* Pods-Snapchat Camera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3UUJ553HD5;
 				INFOPLIST_FILE = "Snapchat Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ABventures.Snapchat-Camera";

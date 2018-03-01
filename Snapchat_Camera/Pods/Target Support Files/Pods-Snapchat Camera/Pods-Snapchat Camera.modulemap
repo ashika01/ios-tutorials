@@ -1,0 +1,6 @@
+framework module Pods_Snapchat_Camera {
+  umbrella header "Pods-Snapchat Camera-umbrella.h"
+
+  export *
+  module * { export * }
+}
